@@ -7,7 +7,18 @@
 
   <body>
     <script>
-      
+    var fifthLetter = function(name) {
+      if (name.length < 5) {
+        return;
+      }
+      return "Your name's fifth letter is " + name[4] + "."
+    };
+
+    console.log(fifthLetter("oyunerdene"));
+    console.log(fifthLetter("gaguu"));
+    console.log(fifthLetter("oon"));
+
+
     </script>
   </body>
 </html>
